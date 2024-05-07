@@ -2,7 +2,7 @@ import requests, os, json
 os.system('cls')
 os.system('title KR+ Coupon redeem')
 user = input("유저 회원코드를 입력해주세요 : ")
-name = input("유저 네임 입력해주세요 : ")
+name = input("닉네임을 입력해주세요 : ")
 coupon = input("쿠폰코드를 입력해주세요 : ")
 
 base = "https://mcoupon.nexon.com/kartrush/coupon/api/v1/redeem-coupon-by-npacode"
